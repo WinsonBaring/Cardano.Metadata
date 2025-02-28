@@ -11,6 +11,7 @@ public class TokenMetadataDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        
         modelBuilder.Entity<TokenMetadata>().HasKey(tmd => tmd.Subject);
         modelBuilder.Entity<SyncState>().HasKey(ss => ss.Sha);
     }
