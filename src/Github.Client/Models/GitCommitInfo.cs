@@ -1,4 +1,4 @@
-namespace Metadata.Models.Github;
+namespace Github.Client.Models;
 
 public record GitCommitInfo
 {
