@@ -1,4 +1,4 @@
-namespace Cardano.Metadata.Models;
+namespace Metadata.Models.Entity;
 
 public record SyncState
 {
